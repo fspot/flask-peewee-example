@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding:utf-8 -*-
 
 from app import app
 from database import db
@@ -17,5 +18,6 @@ def setup_tables():
 
 if __name__ == '__main__':
     setup_tables()
+    import views
+    import feed
     app.run(host="0.0.0.0", port=8011)
-

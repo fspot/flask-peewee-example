@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+
 from flask_peewee.rest import RestAPI, UserAuthentication
 from app import app
 from models import Note, Author

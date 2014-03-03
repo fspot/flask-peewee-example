@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+
 from flask_peewee.admin import Admin
 from flask_peewee.auth import Auth
 
@@ -13,4 +16,3 @@ def setup_admin():
     auth.register_admin(admin)
     admin.setup()
     return auth, admin
-
